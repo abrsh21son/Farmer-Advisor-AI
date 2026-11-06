@@ -47,3 +47,11 @@ class CacheService:
             conn.commit()
         finally:
             conn.close()
+
+    def clear(self):
+        conn = sqlite3.connect(self.db_path)
+        try:
+            conn.execute("DELETE FROM cache")
+            conn.commit()
+        finally:
+            conn.close()
