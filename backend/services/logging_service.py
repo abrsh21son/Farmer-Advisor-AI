@@ -1,4 +1,4 @@
-"""Simple logging service that appends JSONL logs for queries and feedback."""
+﻿"""Structured JSONL logging service that appends JSONL logs for queries and feedback."""
 import os
 import json
 from datetime import datetime
