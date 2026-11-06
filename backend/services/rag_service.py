@@ -24,7 +24,7 @@ class RAGService:
 
         # Configurable parameters
         self.timeout: int = int(os.getenv("RAG_REMOTE_TIMEOUT", "180"))
-        self.max_retries: int = int(os.getenv("RAG_MAX_RETRIES", "3"))
+        self.max_retries: int = int(os.getenv("RAG_MAX_RETRIES", "5"))
 
         # diagnostics
         self.chunk_texts: List[str] = []
