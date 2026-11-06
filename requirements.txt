@@ -1,4 +1,4 @@
-# Core dependencies
+﻿# Core dependencies
 # Add your project dependencies here
 
 # Optional/required for real RAG retrieval
@@ -6,3 +6,5 @@ faiss-cpu
 sentence-transformers
 numpy
 
+
+# Root-level alias; see backend/requirements.txt for the full dependency list
