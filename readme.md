@@ -459,3 +459,5 @@ This system provides **advisory information only**. All answers are derived from
 <p align="center">
   Built with ❤️ for Ethiopian farmers &nbsp;·&nbsp; Ethiopia → Africa → Global
 </p>
+
+<!-- README version: 1.1.0 -->
