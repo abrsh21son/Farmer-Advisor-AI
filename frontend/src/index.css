@@ -82,3 +82,5 @@ code {
 @media (max-width: 480px) {
   body { font-size: 14px; }
 }
+
+/* Noto Sans Ethiopic loaded for Ge'ez/Amharic text rendering */
