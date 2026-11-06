@@ -78,3 +78,5 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ messages, isLoading, onFeedback
 };
 
 export default ChatWindow;
+
+// ChatWindow: scrollable container, auto-scrolls to latest message
