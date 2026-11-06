@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import os
 import time
@@ -23,7 +23,7 @@ class RAGService:
         self.initialized: bool = False
 
         # Configurable parameters
-        self.timeout: int = int(os.getenv("RAG_REMOTE_TIMEOUT", "120"))
+        self.timeout: int = int(os.getenv("RAG_REMOTE_TIMEOUT", "180"))
         self.max_retries: int = int(os.getenv("RAG_MAX_RETRIES", "3"))
 
         # diagnostics
