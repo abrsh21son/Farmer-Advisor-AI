@@ -86,7 +86,7 @@ def answer_question(question, k=5):
     inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=1024)
 
     with torch.no_grad():
-        out = llm.generate(**inputs, max_new_tokens=200)
+        out = llm.generate(**inputs, max_new_tokens=256)
 
     return tokenizer.decode(out[0], skip_special_tokens=True)
 
