@@ -8,6 +8,7 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
 os.makedirs(LOGS_DIR, exist_ok=True)
 
+# Path to structured log files
 QUERY_LOG = os.path.join(LOGS_DIR, "query_log.jsonl")
 FEEDBACK_LOG = os.path.join(LOGS_DIR, "feedback_log.jsonl")
 ERROR_LOG = os.path.join(LOGS_DIR, "error_log.jsonl")
