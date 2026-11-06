@@ -26,3 +26,5 @@ function App() {
 
 export default App;
 
+
+// Root app: Router wraps all pages; Navigation renders on every route
