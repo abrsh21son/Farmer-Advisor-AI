@@ -78,3 +78,5 @@ class LoggingService:  # Thread-safe via append-mode file writes
             pass
 
 # TODO: implement log rotation when files exceed 100MB
+
+# Log files use newline-delimited JSON (JSONL) for streaming-compatible ingestion
