@@ -185,3 +185,5 @@ const ContactUs: React.FC = () => {
 };
 
 export default ContactUs;
+
+// ContactUs: contact form - console-only submission in MVP
