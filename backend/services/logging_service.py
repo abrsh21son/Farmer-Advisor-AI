@@ -19,7 +19,7 @@ def _append_jsonl(path: str, obj: dict):
         fh.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
 
-class LoggingService:
+class LoggingService:  # Thread-safe via append-mode file writes
     def __init__(self):
         pass
 
