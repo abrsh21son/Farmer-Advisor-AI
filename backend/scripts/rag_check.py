@@ -53,7 +53,7 @@ def from_en(text):
 
 def retrieve(query, k=7):
     q_emb = embed_model.encode([query], convert_to_numpy=True).astype("float32")
-    faiss.normalize_L2(q_emb)
+    faiss.normalize_L2(q_emb)  # Required for cosine similarity with IndexFlatIP
     D, I = index.search(q_emb, k)
 
     results = []
