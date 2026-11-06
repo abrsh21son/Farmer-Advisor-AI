@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -56,3 +56,13 @@ coverage/
 *.pkl
 *.pkl.gz
 
+
+# SQLite databases
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node build output
+build/
