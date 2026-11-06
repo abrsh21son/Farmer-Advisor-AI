@@ -470,3 +470,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues and submit pull 
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a full list of changes by version.
+
+---
+
+*Last updated: November 2024 - v1.1.0*
