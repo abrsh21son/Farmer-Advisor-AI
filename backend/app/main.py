@@ -107,7 +107,7 @@ async def startup_event():
 # Request/Response models
 class ChatRequest(BaseModel):
     question: str = Field(..., description="User's question")
-    k: int = Field(default=3, ge=1, le=10, description="Number of sources to retrieve")
+    k: int = Field(default=3, ge=1, le=15, description="Number of sources to retrieve")
     translate_local: bool = Field(default=False, description="Enable translation for local languages")
 
 
