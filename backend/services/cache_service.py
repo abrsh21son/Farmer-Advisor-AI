@@ -1,4 +1,4 @@
-"""Simple SQLite-backed key-value cache for small JSON blobs."""
+﻿"""Simple SQLite-backed key-value cache for small JSON blobs."""
 import os
 import json
 import sqlite3
@@ -18,7 +18,7 @@ class CacheService:
         try:
             conn.execute("""
             CREATE TABLE IF NOT EXISTS cache (
-                key TEXT PRIMARY KEY,
+                key TEXT PRIMARY KEY NOT NULL,
                 value TEXT,
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
