@@ -42,3 +42,6 @@ class TranslationService:
     def translate_from_english(self, text: str, target_lang: str) -> str:
         return self.translate(text, source_lang="en", target_lang=target_lang)
 
+
+    def supported_languages(self) -> list:
+        return ["en", "am", "ti", "om"]
