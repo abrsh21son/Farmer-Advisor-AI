@@ -78,3 +78,4 @@ export const CardContent = React.forwardRef<HTMLDivElement, CardContentProps>(
 );
 
 CardContent.displayName = "CardContent";
+// Card: Shadcn-style surface with CardHeader, CardTitle, CardContent slots
