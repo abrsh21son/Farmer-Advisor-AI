@@ -6,3 +6,4 @@ torch
 numpy
 pydantic
 deep-translatorpython-dotenv
+requests
