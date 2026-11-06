@@ -38,7 +38,7 @@ class RAGService:
         self.initialized = True
 
     async def query(self, question: str, k: int = 3) -> dict:
-        k = max(1, min(int(k or 3), 10))
+        k = max(1, min(int(k or 3), 15))  # Allow up to 15 chunks
 
         data = self._call_remote_with_retries(question, k)
 
