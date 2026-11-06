@@ -116,3 +116,4 @@ def ask(req: AskReq):
 @app.get("/health")
 def health():
     return {"status": "ok"}
+# Config constants above can be overridden via environment variables at runtime
