@@ -5,4 +5,4 @@ transformers
 torch
 numpy
 pydantic
-deep-translator
+deep-translatorpython-dotenv
