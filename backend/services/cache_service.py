@@ -55,3 +55,11 @@ class CacheService:
             conn.commit()
         finally:
             conn.close()
+
+    def size(self) -> int:
+        conn = sqlite3.connect(self.db_path)
+        try:
+            cur = conn.execute("SELECT COUNT(*) FROM cache")
+            return cur.fetchone()[0]
+        finally:
+            conn.close()
