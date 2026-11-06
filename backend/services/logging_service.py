@@ -25,7 +25,7 @@ class LoggingService:
 
     def log_query(self, question_id: str, question: str, answer: str, sources, backend: str, translated: bool = False, detected_language: str = "en", from_cache: bool = False):
         rec = {
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.utcnow().isoformat() + "Z",
             "question_id": question_id,
             "question": question,
             "answer": answer,
@@ -42,7 +42,7 @@ class LoggingService:
 
     def log_feedback(self, question_id: str, rating: int, comment: str = None):
         rec = {
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.utcnow().isoformat() + "Z",
             "question_id": question_id,
             "rating": rating,
             "comment": comment,
@@ -54,7 +54,7 @@ class LoggingService:
 
     def log_error(self, question_id: str = None, error: str = ""):
         rec = {
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.utcnow().isoformat() + "Z",
             "question_id": question_id,
             "error": str(error),
         }
