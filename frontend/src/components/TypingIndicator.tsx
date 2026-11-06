@@ -13,3 +13,5 @@ const TypingIndicator: React.FC = () => {
 
 export default TypingIndicator;
 
+
+// TypingIndicator: three pulsing dots shown during assistant response loading
