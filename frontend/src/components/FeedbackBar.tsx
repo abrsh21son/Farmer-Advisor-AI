@@ -49,3 +49,5 @@ const FeedbackBar: React.FC<FeedbackBarProps> = ({ questionId, onFeedback }) => 
 };
 
 export default FeedbackBar;
+
+// FeedbackBar: thumbs up/down widget, disables after first click
