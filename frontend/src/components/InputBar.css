@@ -1,0 +1,25 @@
+.input-bar {
+  display: flex;
+  align-items: center;
+  padding: 18px 24px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 -2px 12px rgba(47, 158, 68, 0.06);
+  position: relative;
+  z-index: 10;
+  backdrop-filter: blur(4px) saturate(1.1);
+}
+
+.input-container {
+  display: flex;
+  align-items: flex-end; /* align button to bottom */
+  gap: 8px;
+  max-width: 100%;
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .input-bar {
+    padding: 10px;
+  }
+}
