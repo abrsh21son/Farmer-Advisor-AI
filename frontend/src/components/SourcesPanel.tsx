@@ -52,3 +52,5 @@ const SourcesPanel: React.FC<SourcesPanelProps> = ({ sources, isOpen, onToggle }
 
 export default SourcesPanel;
 
+
+// SourcesPanel: collapsible list of retrieved document chunks per answer
