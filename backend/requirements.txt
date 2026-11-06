@@ -7,3 +7,4 @@ numpy
 pydantic
 deep-translatorpython-dotenv
 requests
+urllib3
