@@ -19,3 +19,5 @@ const ChatHeader: React.FC = () => {
 
 export default ChatHeader;
 
+
+// ChatHeader: reusable header block for chat views
