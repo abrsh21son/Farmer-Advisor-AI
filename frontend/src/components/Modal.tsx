@@ -24,3 +24,5 @@ const Modal: React.FC<ModalProps> = ({ open, title, onClose, children }) => {
 };
 
 export default Modal;
+
+// Modal: generic dialog - closes on backdrop click or Close button
