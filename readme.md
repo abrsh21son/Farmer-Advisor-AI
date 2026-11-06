@@ -466,3 +466,7 @@ This system provides **advisory information only**. All answers are derived from
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues and submit pull requests.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a full list of changes by version.
