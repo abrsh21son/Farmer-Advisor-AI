@@ -1,10 +1,5 @@
 ﻿# 🌾 AI Agriculture Advisor — RAG-Powered MVP
 
-<p align="center">
-  <img src="frontend/public/workflow-image.jpg" alt="System Workflow" width="780"/>
-</p>
-
-
 
 ## Overview
 
