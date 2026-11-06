@@ -52,3 +52,6 @@ class TranslationService:
         return all(ord(c) < 128 for c in text if c.strip())
 
 # Supported translation providers: stub (default), google, helsinki-nlp
+
+    def __repr__(self) -> str:
+        return f"TranslationService(provider={self.provider!r})"
