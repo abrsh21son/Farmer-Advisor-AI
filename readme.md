@@ -1,4 +1,4 @@
-# 🌾 AI Agriculture Advisor — RAG-Powered MVP
+﻿# 🌾 AI Agriculture Advisor — RAG-Powered MVP
 
 <p align="center">
   <img src="frontend/public/workflow-image.jpg" alt="System Workflow" width="780"/>
@@ -461,3 +461,8 @@ This system provides **advisory information only**. All answers are derived from
 </p>
 
 <!-- README version: 1.1.0 -->
+
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues and submit pull requests.
