@@ -73,3 +73,5 @@ SERVER_PID=$!
 echo "$SERVER_PID" > "$PIDFILE"
 echo "Started server pid=$SERVER_PID (pidfile=$PIDFILE). Logs: $LOGFILE"
 wait $SERVER_PID
+
+# Starts FastAPI on port 8000 with auto-reload enabled
