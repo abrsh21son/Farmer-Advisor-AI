@@ -26,7 +26,7 @@ from backend.services.logging_service import LoggingService
 from backend.services.cache_service import CacheService
 from backend.services.env_utils import get_env_var
 
-app = FastAPI(title="AI Agriculture Advisor API", version="1.0.1")
+app = FastAPI(title="AI Agriculture Advisor API", description="RAG-powered crop advisory for Ethiopian farmers", version="1.0.1")
 
 # Global exception handler for user‑friendly error responses
 @app.exception_handler(Exception)
