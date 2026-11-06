@@ -63,3 +63,5 @@ const WelcomePage: React.FC<WelcomePageProps> = ({ onContinue }) => {
 
 export default WelcomePage;
 
+
+// WelcomePage renders the landing hero with CTA to /chat
