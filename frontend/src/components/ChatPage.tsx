@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Message } from './ChatPage.types';
 import ChatWindow from './ChatWindow';
 import InputBar from './InputBar';
@@ -9,6 +9,7 @@ import './ChatPage.css';
 const ChatPage: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
   const [errorToast, setErrorToast] = useState<string | null>(null);
 
   const handleSendMessage = async (text: string) => {
