@@ -1,4 +1,4 @@
-# Frontend - AI Agriculture Advisor
+﻿# Frontend - AI Agriculture Advisor
 
 React frontend for the AI Agriculture Advisor chat interface.
 
@@ -78,3 +78,11 @@ Built with:
 - CORS is configured to allow requests from `localhost:3000`
 - Ge'ez script detection automatically enables translation
 
+
+
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|---|---|
+| Enter | Send message |
+| Shift+Enter | New line in input |
