@@ -50,3 +50,5 @@ class TranslationService:
 
     def is_latin(self, text: str) -> bool:
         return all(ord(c) < 128 for c in text if c.strip())
+
+# Supported translation providers: stub (default), google, helsinki-nlp
