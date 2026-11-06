@@ -1,4 +1,4 @@
-# Quick Start Guide (Remote ML via ngrok)
+﻿# Quick Start Guide (Remote ML via ngrok)
 
 ## Prerequisites
 
@@ -117,3 +117,8 @@ curl -X POST http://localhost:8000/feedback \
   - `POST /debug/remote_preview` — preview raw remote response
   - `POST /debug/flush_queue` — flushes queued requests if remote was offline
 - When your ngrok URL changes, update `backend/.env` and restart the backend.
+
+## Troubleshooting
+
+- Backend not starting: ensure RAG_REMOTE_URL is set in .env
+- Blank frontend: run npm install then npm start
