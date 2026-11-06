@@ -1,4 +1,4 @@
-"""Translation service stub that exposes a TranslationService class.
+﻿"""Translation service stub that exposes a TranslationService class.
 
 This file provides a minimal `TranslationService` class so other modules can
 import `TranslationService` reliably during local development. The
@@ -23,7 +23,7 @@ class TranslationService:
     def detect_geez_script(self, text: str) -> str:
         """Detect Ge'ez characters and return a language hint.
 
-        Returns 'am' when Ge'ez characters are present, otherwise 'en'.
+        Returns 'am' (Amharic) when Ge'ez characters are present, otherwise 'en'.
         """
         if any("\u1200" <= c <= "\u137F" for c in text):
             return "am"
