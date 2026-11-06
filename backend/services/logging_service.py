@@ -16,7 +16,7 @@ ERROR_LOG = os.path.join(LOGS_DIR, "error_log.jsonl")
 
 def _append_jsonl(path: str, obj: dict):
     with open(path, "a", encoding="utf-8") as fh:
-        fh.write(json.dumps(obj, ensure_ascii=False) + "\n")
+        fh.write(json.dumps(obj, ensure_ascii=False, default=str) + "\n")
 
 
 class LoggingService:  # Thread-safe via append-mode file writes
