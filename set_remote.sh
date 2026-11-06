@@ -26,3 +26,5 @@ fi
 # start backend in stable background mode
 NOHUP=1 "$ROOT_DIR"/start-backend.sh &> "$ROOT_DIR/backend_start.log" &
 echo "Started backend with NOHUP=1; logs: $ROOT_DIR/backend_start.log"
+
+# Run this script once after cloning to configure the git remote
