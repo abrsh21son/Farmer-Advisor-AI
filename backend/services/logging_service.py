@@ -62,3 +62,10 @@ class LoggingService:
             _append_jsonl(ERROR_LOG, rec)
         except Exception:
             pass
+
+    def log_startup(self, version: str = "unknown"):
+        rec = {"timestamp": datetime.utcnow().isoformat() + "Z", "event": "startup", "version": version}
+        try:
+            _append_jsonl(QUERY_LOG, rec)
+        except Exception:
+            pass
