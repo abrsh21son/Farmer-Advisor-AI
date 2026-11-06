@@ -58,3 +58,5 @@ const InputBar: React.FC<InputBarProps> = ({ onSendMessage, disabled }) => {
 };
 
 export default InputBar;
+
+// InputBar: auto-resizing textarea, Enter to send, Shift+Enter for newline
