@@ -69,3 +69,10 @@ class LoggingService:  # Thread-safe via append-mode file writes
             _append_jsonl(QUERY_LOG, rec)
         except Exception:
             pass
+
+    def log_cache_hit(self, question_id: str, question: str):
+        rec = {"timestamp": datetime.utcnow().isoformat() + "Z", "question_id": question_id, "event": "cache_hit", "question": question}
+        try:
+            _append_jsonl(QUERY_LOG, rec)
+        except Exception:
+            pass
