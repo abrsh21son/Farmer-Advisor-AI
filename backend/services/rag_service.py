@@ -59,7 +59,7 @@ class RAGService:
 
     def _call_remote_with_retries(self, question: str, k: int) -> Optional[dict]:
         url = self.remote_url.rstrip("/") + "/ask"
-        payload = {"question": question, "k": k, "translate_local": False}
+        payload = {"question": question, "k": k, "translate_local": False  # Translation handled at FastAPI layer}
 
         print("🔗 Calling:", url)
         print("📦 Payload:", payload)
