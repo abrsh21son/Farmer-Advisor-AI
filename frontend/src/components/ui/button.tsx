@@ -37,3 +37,4 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 );
 
 Button.displayName = "Button";
+// Button: Shadcn-style primitive with variant and size props
