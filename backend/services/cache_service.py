@@ -1,4 +1,4 @@
-﻿"""Simple SQLite-backed key-value cache for small JSON blobs."""
+﻿"""SQLite-backed key-value cache for RAG responses. Keys are query fingerprints."""
 import os
 import json
 import sqlite3
