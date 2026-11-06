@@ -45,3 +45,5 @@ class TranslationService:
 
     def supported_languages(self) -> list:
         return ["en", "am", "ti", "om"]
+
+# TODO: distinguish Amharic vs Tigrigna via additional Unicode sub-range analysis
