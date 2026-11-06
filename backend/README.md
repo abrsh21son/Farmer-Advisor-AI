@@ -1,4 +1,4 @@
-# Backend - AI Agriculture Advisor API
+﻿# Backend - AI Agriculture Advisor API
 
 FastAPI backend for the AI Agriculture Advisor RAG system.
 
@@ -126,3 +126,8 @@ The backend uses:
 
 - Translation requires `googletrans` (may need internet connection)
 
+
+
+## Cache Notes
+
+The SQLite cache has no TTL expiry in the current implementation. To clear manually, delete backend_cache.db or call CacheService().clear().
