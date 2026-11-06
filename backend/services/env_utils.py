@@ -21,3 +21,4 @@ def get_env_var(name: str, default: Any = None, required: bool = False) -> Any:
     if required and value is None:
         raise RuntimeError(f"❌ Environment variable '{name}' is required but not set.")
     return value
+# env_utils loaded
