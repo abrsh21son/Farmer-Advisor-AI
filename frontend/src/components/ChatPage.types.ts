@@ -17,3 +17,4 @@ export interface Source {
     [key: string]: any;
   };
 }
+// Message: core data model for chat history entries
