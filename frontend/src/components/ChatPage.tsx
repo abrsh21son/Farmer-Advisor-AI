@@ -137,3 +137,5 @@ const ChatPage: React.FC = () => {
 };
 
 export default ChatPage;
+
+// ChatPage v1.1.0 - orchestrates message state, API calls, and feedback
