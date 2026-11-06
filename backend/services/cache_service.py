@@ -63,3 +63,5 @@ class CacheService:
             return cur.fetchone()[0]
         finally:
             conn.close()
+
+# CacheService v1.1.0 - SQLite-backed with clear() and size() utility methods
