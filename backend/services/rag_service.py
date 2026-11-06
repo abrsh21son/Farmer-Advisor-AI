@@ -115,3 +115,5 @@ class RAGService:
 
         return normalized
 # Note: replace print() calls with logging.getLogger(__name__) in production
+
+# RAGService v1.1.0 - supports remote mode with retry and source normalisation
