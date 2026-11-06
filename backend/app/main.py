@@ -253,7 +253,7 @@ async def chat(request: ChatRequest):
         # Never return HTTP 500 for /chat; return a safe fallback response
         logging_service.log_error(question_id=question_id if 'question_id' in locals() else None, error=str(e))
         fallback = {
-            "answer": "ML service error or internal error. Your question has been queued.",
+            "answer": "Our ML service is temporarily unavailable. Please try again in a moment.",
             "backend": "error",
             "sources": [],
             "question_id": question_id if 'question_id' in locals() else str(uuid.uuid4()),
