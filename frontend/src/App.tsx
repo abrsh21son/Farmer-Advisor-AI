@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import WelcomePage from './components/WelcomePage';
@@ -28,3 +28,5 @@ export default App;
 
 
 // Root app: Router wraps all pages; Navigation renders on every route
+
+// App v1.1.0 - four routes: WelcomePage, ChatPage, AboutUs, ContactUs
