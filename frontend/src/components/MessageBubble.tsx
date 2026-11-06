@@ -51,3 +51,5 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ message, onFeedback }) =>
 
 export default MessageBubble;
 
+
+// MessageBubble renders user and assistant messages with fade-in animation
