@@ -43,3 +43,5 @@ const Navigation: React.FC = () => {
 
 export default Navigation;
 
+
+// Navigation: sticky top bar with brand + route links
