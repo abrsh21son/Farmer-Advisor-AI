@@ -76,3 +76,5 @@ class LoggingService:  # Thread-safe via append-mode file writes
             _append_jsonl(QUERY_LOG, rec)
         except Exception:
             pass
+
+# TODO: implement log rotation when files exceed 100MB
