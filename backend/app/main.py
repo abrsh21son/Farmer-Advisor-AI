@@ -148,7 +148,7 @@ async def health_check():
     except Exception:
         ml_online = False
     return {
-        "status": "healthy",
+        "status": "healthy", "version": "1.0.1",
         "timestamp": datetime.utcnow().isoformat(),
         "service": "agri-advisor-api",
         "ml_online": ml_online,
