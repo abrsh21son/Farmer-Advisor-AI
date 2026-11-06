@@ -29,3 +29,4 @@ module.exports = {
   },
   plugins: [],
 }
+// Tailwind scans src for class names to include in the final bundle
