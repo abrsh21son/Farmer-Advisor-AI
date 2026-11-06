@@ -17,8 +17,8 @@ class TranslationService:
     be replaced with calls to an external translation API or library.
     """
 
-    def __init__(self):
-        pass
+    def __init__(self, provider: str = "stub"):
+        self.provider = provider
 
     def detect_geez_script(self, text: str) -> str:
         """Detect Ge'ez characters and return a language hint.
