@@ -1,4 +1,4 @@
-import logging, os, json, pickle
+﻿import logging, os, json, pickle
 import numpy as np
 import faiss
 import torch
@@ -9,7 +9,7 @@ from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from googletrans import Translator
 
-# ---------------- CONFIG ----------------
+# === Configuration ===
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 VECTOR_DIR = os.path.join(DATA_DIR, "vectorstore")
