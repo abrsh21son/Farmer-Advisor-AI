@@ -55,3 +55,5 @@ class TranslationService:
 
     def __repr__(self) -> str:
         return f"TranslationService(provider={self.provider!r})"
+
+# TranslationService v1.1.0 - Ge'ez detection with provider abstraction
