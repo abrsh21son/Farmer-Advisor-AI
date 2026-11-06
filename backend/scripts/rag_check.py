@@ -35,8 +35,8 @@ logger.info(f"Loaded {len(chunk_texts)} chunks")
 # ---------------- MODELS ----------------
 embed_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2"  # 118M params, 50+ languages)
 
-tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
-llm = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-small")
+tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+llm = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base")
 llm.eval()
 
 translator = Translator()
