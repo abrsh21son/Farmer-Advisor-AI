@@ -4,30 +4,7 @@
   <img src="frontend/public/workflow-image.jpg" alt="System Workflow" width="780"/>
 </p>
 
-<p align="center">
-  <b>Evidence-based agricultural guidance for Ethiopian farmers, powered by Retrieval-Augmented Generation (RAG)</b><br/>
-  English · Amharic · Tigrigna
-</p>
 
----
-
-## 📖 Table of Contents
-1. [Overview](#overview)
-2. [Architecture](#architecture)
-3. [Workflow](#workflow)
-4. [Features](#features)
-5. [Tech Stack](#tech-stack)
-6. [Project Structure](#project-structure)
-7. [Quick Start](#quick-start)
-8. [API Reference](#api-reference)
-9. [Language Support](#language-support)
-10. [Design System](#design-system)
-11. [Logging & Monitoring](#logging--monitoring)
-12. [Configuration](#configuration)
-13. [Roadmap](#roadmap)
-14. [Disclaimer](#disclaimer)
-
----
 
 ## Overview
 
