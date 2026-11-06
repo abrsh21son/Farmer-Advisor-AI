@@ -117,3 +117,5 @@ const AboutUs: React.FC = () => {
 };
 
 export default AboutUs;
+
+// AboutUs: static page describing project mission and technology
