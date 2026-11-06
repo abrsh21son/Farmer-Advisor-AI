@@ -26,3 +26,5 @@ const Toast: React.FC<ToastProps> = ({ message, onClose, duration = 3000 }) => {
 
 export default Toast;
 
+
+// Toast: auto-dismissing notification, default 3s display time
