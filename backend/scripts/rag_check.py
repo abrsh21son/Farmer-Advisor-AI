@@ -51,7 +51,7 @@ def to_en(text):
 def from_en(text):
     return translator.translate(text, dest="am").text
 
-def retrieve(query, k=5):
+def retrieve(query, k=7):
     q_emb = embed_model.encode([query], convert_to_numpy=True).astype("float32")
     faiss.normalize_L2(q_emb)
     D, I = index.search(q_emb, k)
