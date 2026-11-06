@@ -313,7 +313,7 @@ async def feedback(request: FeedbackRequest):
 
 @app.get("/rag_status")
 async def rag_status():
-    """Return lightweight status of the RAG service for diagnostics.
+    """Return lightweight RAG status for ops dashboards and diagnostics.
 
     Shows whether the service initialized, whether it's in mock mode, and counts
     of loaded chunks / index vectors when available.
