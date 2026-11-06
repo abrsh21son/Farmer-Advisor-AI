@@ -1,0 +1,29 @@
+﻿# Changelog
+
+## [1.1.0] - 2024-11-06
+### Added
+- .env.example with all configuration keys
+- CacheService.clear() and size() methods
+- LoggingService.log_startup() and log_cache_hit()
+- TranslationService.supported_languages() and is_latin()
+- Evaluation dataset README
+- Comprehensive root README with workflow diagram and API reference
+
+### Changed
+- Default RAG timeout increased to 180s
+- Default max retries increased to 5
+- k upper bound raised to 15 chunks
+- Generation model upgraded to flan-t5-base
+- Improved user-facing error messages
+
+### Fixed
+- ISO-8601 UTC timestamp suffix in JSONL logs
+- json.dumps non-serializable object handling via default=str
+- NOT NULL constraint on SQLite cache key column
+
+## [1.0.0] - 2024-10-01
+### Added
+- Initial RAG-based MVP with FastAPI backend and React frontend
+- Multilingual support (English, Amharic, Tigrigna)
+- SQLite response cache and JSONL structured logging
+- Remote ML service integration (sentence-transformers + FAISS + flan-t5)
